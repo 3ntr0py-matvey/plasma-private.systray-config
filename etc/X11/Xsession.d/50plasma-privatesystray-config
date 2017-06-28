@@ -1,0 +1,4 @@
+if [ -z "$XDG_DATA_DIRS" ]; then
+   XDG_DATA_DIRS=/usr/local/share:/usr/share
+fi
+export XDG_DATA_DIRS=/usr/share/plasma-privatesystray-config:$XDG_DATA_DIRS

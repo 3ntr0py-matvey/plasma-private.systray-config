@@ -1,0 +1,1 @@
+# plasma-private.systray-config

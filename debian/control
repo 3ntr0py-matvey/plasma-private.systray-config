@@ -1,21 +1,21 @@
 ## This file is part of Whonix.
-## Copyright (C) 2012 - 2014 Patrick Schleizer <adrelanos@riseup.net>
+## Copyright (C) 2012 - 2017 Patrick Schleizer <adrelanos@riseup.net>
 ## See the file COPYING for copying conditions.
 
-Source: kde-sounds-off
+Source: plasma-private.systray-config
 Section: misc
 Priority: optional
 Maintainer: Patrick Schleizer <adrelanos@riseup.net>
 Build-Depends: debhelper (>= 9), genmkfile
-Homepage: https://github.com/Whonix/kde-sounds-off
-Vcs-Browser: https://github.com/Whonix/kde-sounds-off
-Vcs-Git: https://github.com/Whonix/kde-sounds-off.git
-Standards-Version: 3.9.8
+Homepage: https://github.com/Whonix/plasma-private.systray-config
+Vcs-Browser: https://github.com/Whonix/plasma-private.systray-config
+Vcs-Git: https://github.com/Whonix/plasma-private.systray-config.git
+Standards-Version: 1.0.0
 
-Package: kde-sounds-off
+Package: plasma-private.systray-config
 Architecture: all
 Depends: ${misc:Depends}
-Description: Deactivates KDE's system sounds
+Description: Enable sdwdate-gui systray in KDE plasma 5 by default
  This package only takes effect for newly created user accounts. Not for
  existing user accounts. This package is most useful to help Linux distribution
  maintainers setting divergent defaults.

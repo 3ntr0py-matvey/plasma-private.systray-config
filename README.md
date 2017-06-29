@@ -1,4 +1,4 @@
-# Deactivates KDE's system sounds #
+# Enable sdwdate-gui systray in KDE plasma 5 by default #
 
 This package only takes effect for newly created user accounts. Not for
 existing user accounts. This package is most useful to help Linux distribution
